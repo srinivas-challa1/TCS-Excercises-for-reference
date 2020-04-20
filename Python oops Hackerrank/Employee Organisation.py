@@ -25,7 +25,7 @@ class Organisation:
         for i in range(len(self.elist)):
             if(self.elist[i].id == id):
                 return(self.elist[i].age)
-            elif(self.elist[i].id == id):
+            elif(self.elist[i].id != id):
                 continue
         else:
             return(-1)
